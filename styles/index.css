@@ -1,0 +1,35 @@
+div {
+    background-color: blue;
+    border-radius: 25px;
+    padding: 20px;
+    box-shadow: 1px 1px 10px 10px gray;
+    text-shadow: 1px 1px 5px 5px gray;
+    color: white;
+}
+
+div h1 {
+    text-shadow: 1px 1px 10px 10px gray;
+}
+
+#header-box {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+
+    align-items: center;
+}
+
+img {
+    width: 100px;
+}
+
+h2 {
+    text-shadow: 10px 1px 10px 10px black;
+}
+
+#footer-box {
+    text-align: center;
+}
+
+footer h4 {
+    color: yellow;
+}
