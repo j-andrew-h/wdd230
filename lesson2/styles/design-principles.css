@@ -1,0 +1,57 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+#header-box {
+    text-align: center;
+    align-items: center;
+    background-color: rgb(1, 1, 76);
+    color: white;
+
+    margin: auto;
+    padding: 20px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+section {
+    margin: 10px 10px;
+    border: solid black;
+    border-radius: 25px;
+    padding: 0px;
+    background-color: blanchedalmond;
+
+}
+
+article {
+    padding: 5px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin: 0px;
+    
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+section h4 {
+    padding: 10px;
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin: 0px;
+}
+
+footer {
+    background-color:rgb(1, 1, 76);
+    text-align: center;
+    color: white;
+    padding: 5px;
+}
