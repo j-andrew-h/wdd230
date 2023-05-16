@@ -1,0 +1,35 @@
+/* ---------------------------------------------------- */
+/*Color Formatting*/
+:root {
+    --primary: #F99B7D;
+    --secondary: #E76161;
+    --accent1: #B04759;
+    --accent2: #8BACAA;
+}
+
+/*------------------------------------------------------------------------------------------*/
+
+
+table {
+    width: 400px;
+    margin: auto;
+}
+.color-block {
+    height: 30px;
+    text-align: center;
+}
+#primary  {
+    background-color: var(--primary);
+}
+
+#secondary {
+    background-color: var(--secondary);
+}
+
+#accent-1 {
+    background-color: var(--accent1);
+}
+
+#accent-2 {
+    background-color: var(--accent2);
+}
